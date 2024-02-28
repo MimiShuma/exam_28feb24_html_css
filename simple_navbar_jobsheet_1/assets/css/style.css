@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* simple navigation */
+.navbar {
+    width: 90%;
+    height: 60px;
+    text-align: right;
+    background-color: rgb(196, 230, 242);
+    padding: 10px;
+    box-shadow: 10px 10px #f0f0f0;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.navbar .utilities {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.navbar .utilities li {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.navbar .utilities li a {
+    line-height: 50px;
+    padding: 10px 20px;
+    width: 145px;
+}
+
+.navbar .utilities li a:hover {
+    background-color: rgb(104, 210, 248);
+    border-radius: 10px;
+}
+
+/* navigation with dotted border */
+.border_right_dotted {
+    border-right: 1px dotted black;
+}
+
+.border_left_dotted {
+    border-left: 1px dotted black;
+}
+
+/* navigation with dashed border */
+.border_bottom_dashed {
+    border-bottom: 2px dashed black;
+}

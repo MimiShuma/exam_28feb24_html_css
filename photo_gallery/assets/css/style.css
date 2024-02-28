@@ -1,0 +1,43 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+    padding: 5px;
+}
+
+.grid_container .grid_item {
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+.grid_container .grid_item:hover {
+    opacity: 50%;
+    transform: scale(1.05);
+}
+
+
+
+/*.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 4px;
+}
+
+ .column {
+    max-width: 24%;
+    padding: 0px 7px;
+}
+
+.column img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 300px;
+    height: 200px;
+}
+
+.column img:hover {
+    opacity: 50%;
+    transform: scale(1.03); 
+}*/
